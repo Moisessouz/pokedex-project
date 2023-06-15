@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="icon" type="image/png" href="./src/img/pokedex.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/scrollbar.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <img src="./src/img/pokeball.png" alt="Pokéball" class="logo" />
+      </a>
+      <button id="change-theme">
+        <img src="./src/img/sun.png" alt="Sun" class="img-btn" />
+      </button>
+    </header>
+    <main>
+      <ul class="pokemon-list">
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Bulbasaur</span>
+            <span>#001</span>
+          </div>
+          <img src="./src/img/bulbasaur.gif" alt="Bulbasaur" class="gif" />
+          <ul class="types">
+            <li class="type grass">Grass</li>
+            <li class="type poison">Poison</li>
+          </ul>
+          <p class="description">
+            There is a plant seed on its back right from the day this Pokémon is
+            born. The seed slowly grows larger.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Ivysaur</span>
+            <span>#002</span>
+          </div>
+          <img src="./src/img/ivysaur.gif" alt="Ivysaur" class="gif" />
+          <ul class="types">
+            <li class="type grass">Grass</li>
+            <li class="type poison">Poison</li>
+          </ul>
+          <p class="description">
+            When the bulb on its back grows large, it appears to lose the
+            ability to stand on its hind legs.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Venusaur</span>
+            <span>#003</span>
+          </div>
+          <img src="./src/img/venusaur.gif" alt="Venusaur" class="gif" />
+          <ul class="types">
+            <li class="type grass">Grass</li>
+            <li class="type poison">Poison</li>
+          </ul>
+          <p class="description">
+            Its plant blooms when it is absorbing solar energy. It stays on the
+            move to seek sunlight.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Charmander</span>
+            <span>#004</span>
+          </div>
+          <img src="./src/img/charmander.gif" alt="Charmander" class="gif" />
+          <ul class="types">
+            <li class="type fire">Fire</li>
+          </ul>
+          <p class="description">
+            It has a preference for hot things. When it rains, steam is said to
+            spout from the tip of its tail.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Charmeleon</span>
+            <span>#005</span>
+          </div>
+          <img src="./src/img/charmeleon.gif" alt="Charmeleon" class="gif" />
+          <ul class="types">
+            <li class="type fire">Fire</li>
+          </ul>
+          <p class="description">
+            It has a preference for hot things. When it rains, steam is said to
+            spout from the tip of its tail.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Charizard</span>
+            <span>#006</span>
+          </div>
+          <img src="./src/img/charizard.gif" alt="Charizard" class="gif" />
+          <ul class="types">
+            <li class="type fire">Fire</li>
+            <li class="type flying">Flying</li>
+          </ul>
+          <p class="description">
+            It is said that Charizard's fire burns hotter if it has experienced
+            harsh battles.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Squirtle</span>
+            <span>#007</span>
+          </div>
+          <img src="./src/img/squirtle.gif" alt="Squirtle" class="gif" />
+          <ul class="types">
+            <li class="type water">Water</li>
+          </ul>
+          <p class="description">
+            When it retracts its long neck into its shell, it squirts out water
+            with vigorous force.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Wartortle</span>
+            <span>#008</span>
+          </div>
+          <img src="./src/img/wartortle.gif" alt="Wartortle" class="gif" />
+          <ul class="types">
+            <li class="type water">Water</li>
+          </ul>
+          <p class="description">
+            It is recognized as a symbol of longevity. If its shell has algae on
+            it, that Wartortle is very old.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Blastoise</span>
+            <span>#009</span>
+          </div>
+          <img src="./src/img/blastoise.gif" alt="Blastoise" class="gif" />
+          <ul class="types">
+            <li class="type water">Water</li>
+          </ul>
+          <p class="description">
+            It crushes its foe under its heavy body to cause fainting. In a
+            pinch, it will withdraw inside its shell.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Pichu</span>
+            <span>#010</span>
+          </div>
+          <img src="./src/img/pichu.gif" alt="Pichu" class="gif" />
+          <ul class="types">
+            <li class="type electric">Electric</li>
+          </ul>
+          <p class="description">
+            It is unskilled at storing electric power. Any kind of shock causes
+            it to discharge energy spontaneously.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Pikachu</span>
+            <span>#011</span>
+          </div>
+          <img src="./src/img/pikachu.gif" alt="Pikachu" class="gif" />
+          <ul class="types">
+            <li class="type electric">Electric</li>
+          </ul>
+          <p class="description">
+            When it is angered, it immediately discharges the energy stored in
+            the pouches in its cheeks.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Raichu</span>
+            <span>#012</span>
+          </div>
+          <img src="./src/img/raichu.gif" alt="Raichu" class="gif" />
+          <ul class="types">
+            <li class="type electric">Electric</li>
+          </ul>
+          <p class="description">
+            Its tail discharges electricity into the ground, protecting it from
+            getting shocked.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Articuno</span>
+            <span>#013</span>
+          </div>
+          <img src="./src/img/articuno.gif" alt="Articuno" class="gif" />
+          <ul class="types">
+            <li class="type ice">Ice</li>
+            <li class="type flying">Flying</li>
+          </ul>
+          <p class="description">
+            This legendary bird Pokémon can create blizzards by freezing
+            moisture in the air.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>moltres</span>
+            <span>#014</span>
+          </div>
+          <img src="./src/img/moltres.gif" alt="Moltres" class="gif" />
+          <ul class="types">
+            <li class="type fire">Fire</li>
+            <li class="type flying">Flying</li>
+          </ul>
+          <p class="description">
+            It is one of the legendary bird Pokémon. Its appearance is said to
+            indicate the coming of spring.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Zapdos</span>
+            <span>#016</span>
+          </div>
+          <img src="./src/img/zapdos.gif" alt="Zapdos" class="gif" />
+          <ul class="types">
+            <li class="type electric">Electric</li>
+            <li class="type flying">Flying</li>
+          </ul>
+          <p class="description">
+            This legendary Pokémon is said to live in thunderclouds. It freely
+            controls lightning bolts.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Mew</span>
+            <span>#017</span>
+          </div>
+          <img src="./src/img/mew.gif" alt="Mew" class="gif" />
+          <ul class="types">
+            <li class="type psychic">Psychic</li>
+          </ul>
+          <p class="description">
+            When viewed through a microscope, this Pokémon's short, fine,
+            delicate hair can be seen.
+          </p>
+        </li>
+
+        <li class="pokemon-card">
+          <div class="info">
+            <span>Mewtwo</span>
+            <span>#018</span>
+          </div>
+          <img src="./src/img/mewtwo.gif" alt="Mewtwo" class="gif" />
+          <ul class="types">
+            <li class="type psychic">Psychic</li>
+          </ul>
+          <p class="description">
+            Its DNA is almost the same as Mew's. However, its size and
+            disposition are vastly different.
+          </p>
+        </li>
+      </ul>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
